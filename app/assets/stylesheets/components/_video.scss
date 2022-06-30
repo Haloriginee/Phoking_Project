@@ -1,0 +1,147 @@
+.mfp-hide {
+  display: none !important;
+}
+
+.button .fa {
+  margin-left: 20px;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  //margin-left: 80px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  width: 70% !important;
+  height: 600px !important;
+}
+
+button.mfp-close {
+  display: block;
+  margin: 0 auto;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  line-height: 44px;
+  //position: absolute;
+  //right: 40px;
+  //align-items: center;
+}
+
+.mfp-close-btn-in .mfp-close {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #fff;
+  line-height: 44px;
+  //position: absolute;
+  align-items: center;
+  right: 40px;
+  color: red
+}
+
+.mfp-content {
+  justify-content: center;
+  align-items: center !important;
+}
+
+#videostory {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+@media(max-width: 768px) {
+  #videostory iframe {
+    max-width: 90%;
+  }
+}
+
+/*
+@import url('https://fonts.googleapis.com/css?family=poppins:200,300,400,500,700,800,900&display=swap');
+
+.video_btn {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.video_btn .play {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 15px 25px #FF5A53;
+  transition: 0.5s;
+}
+
+.video_btn.active .play {
+  box-shadow: 0 0 0 150vh #FF5A53;
+}
+
+.video_btn .play::before {
+  content: '';
+  position: absolute;
+  border: 25px solid #FF5A53;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 0px solid transparent;
+  transform: translateX(5px);
+}
+
+.clip {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) scale(0);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  transition: 0.5s;
+}
+
+.clip.active {
+  transition-delay: 0.5s;
+  transform: translate(-50%,-50%) scale(1);
+}
+
+
+.clip iframe {
+  max-width: 900px;
+  outline: none;
+  box-shadow: 0 15px 35px #FF5A53;
+}
+
+.clip .close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+}
+*/
+/* Responsive mode */
+/*
+@media(max-width: 991px) {
+  #videostory iframe {
+    max-width: 90%;
+  }
+}
+*/

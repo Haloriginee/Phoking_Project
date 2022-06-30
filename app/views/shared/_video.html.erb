@@ -1,0 +1,45 @@
+<div class="content">
+
+    <a class="slide__link" href="#videostory" id="videolink">Découvrir</a>
+
+    <div id="videostory" class="mfp-hide h-100 d-flex align-items-center justify-content-center">
+      <iframe width="auto" height="auto" src="https://www.youtube.com/embed/4t__wczfpRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+
+  <script>
+
+    $('#videolink').magnificPopup({
+      type:'inline',
+      midClick:true,
+    })
+
+  </script>
+
+<!--
+<div class="video_btn">
+  <div class="play"></div>
+</div>
+<div class="clip">
+  <%= video_tag "video1.mp4" %>
+
+  <b class="close">Close</b>
+</div>
+<script>
+  let video_btn = document.querySelector('.video_btn');
+  let clip = document.querySelector('.clip');
+  let close = document.querySelector('.close');
+  let iframe = document.querySelector('iframe');
+  video_btn.onclick = function(){
+    video_btn.classList.add('active')
+    clip.classList.add('active')
+    iframe.play()
+    iframe.currentTime = 0;
+  }
+  close.onclick = function(){
+    video_btn.classList.remove('active')
+    clip.classList.remove('active')
+    iframe.pause()
+  }
+</script>
+-->

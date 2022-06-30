@@ -75,3 +75,19 @@
   background-color: black;
   opacity: 1;
 }
+
+@media (max-width: 768px) {
+  .slide__title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .slide__desc {
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
