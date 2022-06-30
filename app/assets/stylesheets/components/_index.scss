@@ -1,5 +1,19 @@
 // Import your components CSS files here.
 @import "alert";
-@import "avatar";
-@import "form_legend_clear";
+@import "logo";
+//@import "form_legend_clear";
 @import "navbar";
+
+
+html, body {
+  color: #737373;
+  font-size: 15px;
+  font-family: 'Roboto Slab',serif;
+  font-weight: 400;
+  //background: #0f1014;
+
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1px;
+  line-height: 34px;
+}
