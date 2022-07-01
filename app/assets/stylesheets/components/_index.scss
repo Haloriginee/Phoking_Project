@@ -8,6 +8,9 @@
 @import "footer";
 @import "video";
 @import "menu";
+//@import "fade";
+@import "card";
+@import "slide";
 
 
 html, body {
@@ -18,7 +21,7 @@ html, body {
   background-image: url("headphone.jpg");
   background-size: cover;
   background-position: 50% 50%;
-  background-repeat: no-repeat;
+  //background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100vh;
   width: 100vw;
