@@ -1,4 +1,4 @@
-nav {
+#navbar {
   position: relative;
   margin-top: 50px;
   margin-right: 40px;
@@ -20,10 +20,10 @@ nav {
   text-align: center;
 
 
-  a {
+  .navlink {
     font-family: 'Playfair Display',serif;
     font-size: 22px;
-    color: #777;
+    color: #fff;
     text-decoration: none;
     transition: all 0.45s;
 
@@ -34,7 +34,7 @@ nav {
     animation: line 1s;
   }
 
-  &:hover a {
+  &:hover .navlink {
     color: #FF5A53;
   }
 
@@ -46,5 +46,11 @@ nav {
 @keyframes line {
   0% {
     background-position-x: 390px;
+  }
+}
+
+@media (max-width: 700px) {
+  #navbar {
+     display: none;
   }
 }
