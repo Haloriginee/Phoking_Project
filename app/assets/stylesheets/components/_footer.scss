@@ -96,3 +96,13 @@
     box-shadow: 0 0 24px 0 #dd4b39
   }
 }
+
+@media (max-width: 800px) {
+  .footer__info {
+     display: none;
+  }
+  .connect {
+    bottom: 20px;
+    transform: translate(-43%, -50%);
+  }
+}
