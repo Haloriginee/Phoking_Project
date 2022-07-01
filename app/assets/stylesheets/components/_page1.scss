@@ -1,18 +1,11 @@
-.slideshow {
-	width: 100%;
-	height: 50vh;
-	position: relative;
-	overflow: hidden;
-}
-
 .slides {
-	position: absolute;
+	//position: absolute;
 	width: 100%;
 	height: 100%;
 }
 
 .slide {
-	position: absolute;
+	//position: absolute;
 	width: 100%;
   top: 50px;
 	overflow: hidden;
@@ -24,22 +17,15 @@
 	align-items: center;
 }
 
-.slide--current {
-	opacity: 1;
-
-}
-
-.slide__img {
-	position: absolute;
-	top: -200px;
-	left: -200px;
-	width: calc(100% + 400px);
-	height: calc(100% + 400px);
-	background-size: cover;
-	background-position: 50% 50%;
+.current-slide {
+  opacity: 1;
 }
 
 .slide__title {
+padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   //top: -30px;
 	color: #fff;
   font-size: 60px;
@@ -49,10 +35,13 @@
   line-height: 62px;
   text-transform: uppercase;
   text-decoration: none;
-  position: relative;
+  //position: relative;
 }
 
 .slide__desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding-top: 20px;
   padding-bottom: 50px;
   color: #fff;
@@ -63,34 +52,36 @@
   line-height: 24px;
   text-decoration: none;
   font-style: italic;
-  text-rendering: optimizeSpeed;
-  position: relative;
+  //text-rendering: optimizeSpeed;
+  //position: relative;
 }
 
-#landing-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: 50% 50%;
-  background-color: black;
-  opacity: 1;
-}
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
+
   .slide__title {
-    font-size: 40px;
-    line-height: 50px;
+    padding-top: 18px;
+    padding-right: 150px;
+    font-size: 36px;
+    line-height: 40px;
+    //position:relative;
+    //margin:0 auto;
+    clear:left;
+    //height:100%;
+    //z-index: 0;
+    text-align:center;
   }
 
   .slide__desc {
-    font-size: 14px;
+    padding: 130px;
+    font-size: 20px;
     line-height: 20px;
     display: flex;
+    flex-direction: column;
     align-content: center;
     justify-content: center;
     align-items: center;
+
+
   }
 }
