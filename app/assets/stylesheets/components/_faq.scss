@@ -46,7 +46,7 @@
 
   color: #fff;
   font-size: 18px;
-  font-family: Open Sans;
+  font-family: 'Roboto Slab',serif;
   font-weight: 600;
 
   width: 100%;
@@ -71,11 +71,17 @@
   position: relative;
   background-color: #FF5A53;
   transition: max-height 0.6s;
-  font-family: Open Sans;
+  font-family: 'Roboto Slab',serif;
   font-weight: 400;
 }
 
 .accordion-content p{
   padding: 20px;
   color: white;
+  font-family: 'Roboto Slab',serif;
+  font-size: 18px;
+}
+
+.accordion-title .accordion-content {
+  outline: none;
 }

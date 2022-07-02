@@ -10,30 +10,55 @@
         <i class="material-icons remove">-</i>
       </div>
         <div class="accordion-content">
-          <p>Text & Text.</p>
+          <p>Moïse a coupé la mer en deux. Chuck Norris l'a recollé en disant "tu refais ça, je te pète la gueule"..</p>
         </div>
       </div>
       <div class="accordion-item">
       <div class="accordion-title">
-        <h2>another Questions?</h2>
+        <h2>Une autre Question?</h2>
         <i class="material-icons add">+</i>
         <i class="material-icons remove">-</i>
       </div>
       <div class="accordion-content">
-        <p>Dattebayo</p>
+        <p>Chuck Norris n'a pas de père. On ne nique pas la mère de Chuck Norris.</p>
       </div>
       </div>
       <div class="accordion-item">
         <div class="accordion-title">
-          <h2>Who are you?</h2>
+          <h2>Encore une?</h2>
           <i class="material-icons add">+</i>
           <i class="material-icons remove">-</i>
         </div>
         <div class="accordion-content">
-          <p>Something Something</p>
+          <p>Chuck Norris n'est pas égal à lui-même, il est meilleur.</p>
         </div>
       </div>
   </div>
-
-
 </section>
+
+<script>
+const questions = document.getElementsByClassName('accordion-title')
+  for (const question of questions) {
+    const answer = question.parentElement.querySelector('.accordion-content')
+    const remove = question.parentElement.querySelector(".remove")
+    const add = question.parentElement.querySelector(".add")
+    let open = false //Variable to check if the answer is visible or not
+
+    function openAnswer() {
+      if (open == true) {
+        add.style.display = "block";
+        remove.style.display = "none";
+        answer.style.overflow = "hidden";
+        answer.style.maxHeight = '0';
+        open = false;
+      } else {
+        add.style.display = "none";
+        remove.style.display = "block";
+        answer.style.maxHeight = "300px";
+        answer.style.overflow = "visible";
+        open = true;
+      }
+    }
+
+    question.addEventListener('click', openAnswer)}
+</script>
