@@ -32,9 +32,10 @@ $slide-overflow: auto;
 
 
 input {
-  //position: absolute;
+  position: absolute;
   opacity: 0;
   top: -25px;
+
   //padding-left: 100px;
   counter-increment: slide;
 
@@ -49,7 +50,7 @@ input {
 
       &:before {
         color: #fff;
-        //position: absolute;
+        position: absolute;
         bottom: 30px;
         right: 10px;
         content: counter(slide) ' of #{$slide-count}';
@@ -69,7 +70,7 @@ input {
 }
 
 @mixin slide-popout {
-  //position: absolute;
+  position: absolute;
   margin: auto;
   top: 0px;
   right: 0px;
@@ -166,7 +167,7 @@ input {
   }
 }
 
-@media(max-width: 768px) {
+@media(max-width: 800px) {
   .slide1 {
     width: 100%;
     //height: auto;
@@ -187,8 +188,9 @@ input {
   .slide__content {
     width: 90%;
     //display: block;
-    left: 0;
+    //left: 0;
     height: 100%;
+
 
 
   }
