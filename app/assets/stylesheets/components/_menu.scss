@@ -30,6 +30,7 @@
 Nav Styles
 **/
 .food {
+  padding: 125px;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -38,6 +39,7 @@ Nav Styles
   overflow: hidden;
   transition: all 0.3s ease-in-out;
   transform: scale(0);
+  opacity: 0.9;
 }
 .nav-wrapper {
   position: relative;

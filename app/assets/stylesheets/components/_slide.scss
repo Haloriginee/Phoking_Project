@@ -30,23 +30,12 @@ $slide-overflow: auto;
 
 /****************************************/
 
-.slideshow {
-  width: 100%;
-  height: auto;
-  border: 0px;
-  padding-left: 30px;
-  //margin: 0 auto;
-  // background-color: $c-black;
-  overflow: hidden;
-  counter-reset: slide;
-
-}
 
 input {
-  position: absolute;
+  //position: absolute;
   opacity: 0;
   top: -25px;
-  padding-left: 100px;
+  //padding-left: 100px;
   counter-increment: slide;
 
   &:checked + .slide1 {
@@ -60,11 +49,11 @@ input {
 
       &:before {
         color: #fff;
-        position: absolute;
+        //position: absolute;
         bottom: 30px;
         right: 10px;
         content: counter(slide) ' of #{$slide-count}';
-        padding: 5px 10px;
+        //padding: 5px 10px;
         background-color: rgba(255,255,255,0.1);
         border-radius: 4px;
         text-align: right;
@@ -80,7 +69,7 @@ input {
 }
 
 @mixin slide-popout {
-  position: absolute;
+  //position: absolute;
   margin: auto;
   top: 0px;
   right: 0px;
@@ -105,7 +94,7 @@ input {
     overflow: $slide-overflow;
     padding: 50px;
     // color: $c-text;
-    position: absolute;
+    //position: absolute;
     left: 100%;
     display: none;
     animation-name: fade-in;
@@ -119,7 +108,7 @@ input {
 
 .art {
   position: absolute;
-  bottom: 0;
+  bottom: 15px;
   right: 25%;
 
   width: 50%;
@@ -136,7 +125,7 @@ input {
   font-weight: bold;
   display: block;
   width: calc((100% / #{$slide-count}) - 2%);
-  margin: 5px 1% 5px 1%;
+  //margin: 5px 1% 5px 1%;
   height: 50px;
   line-height: 50px;
   // border-bottom: solid 4px $c-grey;
