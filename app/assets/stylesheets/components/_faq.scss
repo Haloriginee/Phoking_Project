@@ -86,6 +86,16 @@
   outline: none;
 }
 
+h1 {
+  font-family: 'Roboto Slab',serif;
+  font-weight: 400;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  padding-top: 7px;
+  //margin-bottom: 30px;
+}
+
 @media (max-width: 800px) {
 
   #faq {

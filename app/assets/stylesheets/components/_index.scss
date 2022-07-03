@@ -32,3 +32,9 @@ html, body {
   //letter-spacing: 1px;
   //line-height: 34px;
 }
+
+@media (min-width: 800px) {
+  h1 {
+    display: none;
+  }
+}
