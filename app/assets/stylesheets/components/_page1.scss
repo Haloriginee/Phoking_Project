@@ -1,44 +1,44 @@
-.home2 {
-	//position: absolute;
-	width: 100%;
-	height: 100%;
-}
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap);
 
-.hometitle {
-padding: 50px;
+.home1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  //top: -30px;
-	color: #fff;
-  font-size: 60px;
-  font-family: 'Montserrat',serif;
-  font-weight: 700;
-  letter-spacing: 8px;
-  line-height: 62px;
-  text-transform: uppercase;
-  text-decoration: none;
-  //position: relative;
+
+}
+
+.home2 {
+	//position: absolute;
+	width: 50%;
+	height: 50%;
 }
 
 .homedesc {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 20px;
+  text-align: center;
+  //width: 50%;
+  position: relative;
+  padding-top: 100px;
   padding-bottom: 50px;
   color: #fff;
   font-size: 18px;
-  font-family: 'Playfair Display',serif;
+  font-family: 'Roboto Slab',serif;
   font-weight: 400;
   letter-spacing: 9px;
   line-height: 24px;
   text-decoration: none;
   font-style: italic;
-  //text-rendering: optimizeSpeed;
-  //position: relative;
 }
 
+.homedesc {
+  text-transform: uppercase;
+  color: #b9dfff;
+  color: #fff;
+
+  text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px #FF5A53,0 0 35px #FF5A53,0 0 40px #FF5A53;
+}
 
 @media (max-width: 800px) {
 
@@ -47,8 +47,6 @@ padding: 50px;
     padding-right: 150px;
     font-size: 36px;
     line-height: 40px;
-    //position:relative;
-    //margin:0 auto;
     clear:left;
     //height:100%;
     //z-index: 0;
@@ -56,7 +54,9 @@ padding: 50px;
   }
 
   .homedesc {
-    padding: 110px;
+    text-transform: none;
+    padding-top: 50px;
+    padding-bottom: 20px;
     font-size: 20px;
     line-height: 20px;
     display: flex;
@@ -64,5 +64,11 @@ padding: 50px;
     align-content: center;
     justify-content: center;
     align-items: center;
+    text-align: center;
+  }
+
+  .home1 {
+    top: 50px;
+    height: 100%;
   }
 }
