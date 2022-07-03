@@ -2,7 +2,11 @@
   <ul class="navigation">
     <li><a href="/demos#index" class=navlink>Démos</a></li>
     <li><a href="/abouts#index" class=navlink>A Propos</a></li>
-    <%= render 'shared/logo' %>
+    <div id="dazooLogo" class="position_fixed navlink" style="top: 44px; opacity: 1;">
+      <a href="/">
+        <%= image_tag("Dazoo.jpg?v=1.1.3", :alt => "images", class:"position_absolute w100", id:"cooldazoologo") %>
+      </a>
+    </div>
     <li><a href="/contacts#index" class=navlink>Contact</a></li>
     <li><a href="/faqs#index" class=navlink>FAQ</a></li>
   </ul>
