@@ -1,11 +1,11 @@
 #faq{
   display: flex;
-  top: px;
+
   align-items: center;
   justify-content: center;
 
   width: 100%;
-  min-height: 100vh;
+  //min-height: 100vh;
 }
 
 #faq .add{ /*Add is the name for the + icon*/
@@ -84,4 +84,11 @@
 
 .accordion-title .accordion-content {
   outline: none;
+}
+
+@media (max-width: 800px) {
+
+  #faq {
+    min-height: 100vh;
+  }
 }
