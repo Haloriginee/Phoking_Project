@@ -74,9 +74,12 @@ button {
 }
 
 .musicslists {
+  position: relative;
   font-family: 'Roboto Slab',serif;
-  font-size: 24px;
+  font-size: 28px;
   color: #fff;
+  top: -100px;
+  text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px #FF5A53,0 0 35px black,0 0 40px black;
 }
 
 .trend {
