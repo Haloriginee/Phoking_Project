@@ -4,22 +4,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .home2 {
-	//position: absolute;
 	width: 50%;
 	height: 50%;
 }
 
 .homedesc {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  //width: 50%;
-  position: relative;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto ;
+  margin-bottom: 0;
   padding-top: 100px;
   padding-bottom: 50px;
   color: #fff;
@@ -30,39 +31,27 @@
   line-height: 24px;
   text-decoration: none;
   font-style: italic;
-}
-
-.homedesc {
   text-transform: uppercase;
-  color: #b9dfff;
-  color: #fff;
-
   text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px #FF5A53,0 0 35px black,0 0 40px black;
 }
 
 @media (max-width: 800px) {
 
   .hometitle {
-    padding-top: 18px;
-    padding-right: 150px;
     font-size: 36px;
     line-height: 40px;
-    clear:left;
-    //height:100%;
-    //z-index: 0;
     text-align:center;
   }
 
   .homedesc {
-    //position: absolute;
+    position: relative;
     width: 100%;
     text-transform: none;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    top: 100px;
+    padding: 0;
     font-size: 20px;
     line-height: 20px;
     display: flex;
-    //flex-direction: column;
     align-content: center;
     justify-content: center;
     align-items: center;
@@ -70,7 +59,11 @@
   }
 
   .home1 {
-    top: 50px;
-    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    top: 60vh;
   }
 }

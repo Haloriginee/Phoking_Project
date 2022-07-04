@@ -72,13 +72,13 @@ Nav Styles
   height: 0;
   position: absolute;
   width: 0.25em;
-  background-color: white;
+  background-color: #fff;
   left: -0.5em;
   transition: all 0.2s ease-in-out;
 }
 
 .food a:hover {
-  color: white;
+  color: #fff;
 }
 
 .food a:hover:before {

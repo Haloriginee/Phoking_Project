@@ -1,9 +1,7 @@
 #faq{
   display: flex;
-
   align-items: center;
   justify-content: center;
-
   width: 100%;
   //min-height: 100vh;
 }
@@ -30,7 +28,7 @@
 
 .accordion-item{
   background-color: transparent;
-  border-bottom: 3px solid #ff6666;
+  border-bottom: 3px solid #FF5A53;
 
   margin-bottom: 10px;
   padding: 10px;
@@ -77,7 +75,7 @@
 
 .accordion-content p{
   padding: 20px;
-  color: white;
+  color: #fff;
   font-family: 'Roboto Slab',serif;
   font-size: 18px;
 }
