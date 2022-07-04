@@ -64,7 +64,7 @@ input {
 
   @for $i from 1 through $slide-count {
     &:checked:nth-of-type(#{$i}) ~ .art label:nth-child(#{$i}) {
-      color: white;
+      color: #FF5A53;
     }
   }
 }
