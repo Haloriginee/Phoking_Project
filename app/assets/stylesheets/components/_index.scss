@@ -35,6 +35,11 @@ h1 {
   padding-top: 7px;
 }
 
+iframe {
+  width: 800px !important;
+  height: 600px !important;
+}
+
 @media (min-width: 800px) {
   .pagetitle {
     display: none;
