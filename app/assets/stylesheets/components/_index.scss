@@ -40,8 +40,20 @@ iframe {
   height: 600px !important;
 }
 
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
 @media (min-width: 800px) {
   .pagetitle {
     display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  iframe {
+    width: 350px !important;
+    height: 350px !important;
   }
 }

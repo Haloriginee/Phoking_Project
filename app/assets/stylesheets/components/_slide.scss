@@ -151,6 +151,15 @@ input {
   }
 }
 
+
+.card__date:hover {
+  cursor: pointer;
+  //color: #FF5A53;
+  -webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
 @keyframes fade-in {
   0% {
     opacity: 0;
