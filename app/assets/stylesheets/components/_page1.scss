@@ -35,13 +35,25 @@
   text-shadow: 0 0 5px #fff,0 0 10px #fff,0 0 15px #fff,0 0 20px #FF5A53,0 0 35px black,0 0 40px black;
 }
 
-@media (max-width: 800px) {
+.footer__social {
+  position: relative;
+  display: flex-end;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  top: 185px ;
+}
 
-  .hometitle {
-    font-size: 36px;
-    line-height: 40px;
-    text-align:center;
-  }
+.copyr {
+  color: #555;
+  letter-spacing: 1px;
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+  right: 0;
+}
+
+@media (max-width: 800px) {
 
   .homedesc {
     position: relative;
@@ -65,5 +77,13 @@
     justify-content: center;
     width: 100%;
     top: 60vh;
+  }
+
+  .copyr {
+    display: none;
+  }
+
+  .footer__social {
+    display: none;
   }
 }
